@@ -13,7 +13,7 @@ const LeftSideBar = () => {
   useEffect(() => {
     fetchAlbums();
   }, [fetchAlbums])
-  console.log({albums})
+  //console.log({albums})
   return (
     <div className="h-full flex flex-col gap-2">
       <div className="rounded-lg bg-zinc-900 p-4">

@@ -8,7 +8,7 @@ import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import NoConvoPlaceHolder from "./components/NoConvoPlaceHolder";
 import Header from "./components/Header";
 import MessageInput from "./components/MessageInput";
-
+ 
 const formatTime = (date: string) => {
 	return new Date(date).toLocaleTimeString("en-US", {
 		hour: "2-digit",

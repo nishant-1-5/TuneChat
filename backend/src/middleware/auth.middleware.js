@@ -4,7 +4,7 @@ import { clerkClient } from "@clerk/express";
 // Use to check if user is authenticated to perform tasks like liking adding to playlist etc..
 export const protectRoute = async (req, res, next) => {
   const sessionId = await req.auth?.userId;
-  console.log(sessionId);
+  //console.log(sessionId);
   if (!sessionId) {
     return res.status(401).json({ message: "Unauthorized, Not logged in. Protect Route" });
   }

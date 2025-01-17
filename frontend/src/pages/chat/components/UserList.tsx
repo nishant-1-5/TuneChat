@@ -2,7 +2,7 @@ import ChatSkeleton from '@/components/skeletons/ChatSkeleton';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { useChatStore } from '@/stores/useChatStore'
-
+ 
 const UserList = () => {
     const {users, selectedUser, isLoading, setSelectedUser, onlineUsers} = useChatStore();
   return (

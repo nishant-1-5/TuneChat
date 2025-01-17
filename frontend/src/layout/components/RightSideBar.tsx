@@ -5,7 +5,7 @@ import { useUser } from "@clerk/clerk-react";
 import { Music, Users } from "lucide-react"
 import { useEffect } from "react"; 
 import LoginPrompt from "./LoginPrompt";
-
+ 
 const RightSideBar = () => {
   const {users, userActivities, onlineUsers, fetchUsers} =useChatStore();
   const {user} = useUser(); 
